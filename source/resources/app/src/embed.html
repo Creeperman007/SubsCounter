@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Embed | Live Subscriber Count</title>
+    <link href="fonts/roboto.css" rel="stylesheet">
+    <link href="style.main.css" rel="stylesheet">
+    <link href="style.embed.css" rel="stylesheet">
+  </head>
+  <body>
+    <p id="subs"></p>
+    <script src="script.main.js"></script>
+    <script>
+    document.getElementById("subs").style.color = "#" + $_GET['color'];
+    </script>
+  </body>
+</html>

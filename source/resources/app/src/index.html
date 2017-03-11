@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="fonts/roboto.css" rel="stylesheet">
+    <link href="style.main.css" rel="stylesheet">
+    <title>Live Subscriber Count</title>
+    <script>
+    function go(loc) {
+      document.getElementById('ext').src = loc;
+    }
+    </script>
+  </head>
+  <body>
+    <div id="menu_top">
+      <button onclick="go('subs.html')">Home</button>
+      <button onclick="go('info.html')">Info</button>
+    </div>
+    <div id="body">
+      <iframe id="ext" src="subs.html" frameborder="0" width="100%" height="500px" scrolling="no">
+    </div>
+  </body>
+</html>

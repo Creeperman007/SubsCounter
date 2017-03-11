@@ -1,0 +1,38 @@
+/* Text input */
+input[type=text] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    margin: 3px
+}
+input[type=text]:focus {
+    border-color:#333;
+    background-color: #CCCCCC;
+}
+/* Submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: black;
+    padding: 3px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #545454;
+    color: white;
+}
+input[type=submit]:active {
+  background-color: #4CAF50;
+  transform: translateY(4px);
+}
