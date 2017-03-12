@@ -14,7 +14,7 @@ You have to edit following parameters:
 Example url: [https://creeperman007.github.io/projects/subscounter/embed/?uid=pewdiepie&color=000000](https://creeperman007.github.io/projects/subscounter/embed/?uid=pewdiepie&color=000000)<br>
 
 ## Download
-[Version 0.2](https://github.com/Creeperman007/subscounter/releases/tag/v0.2)
+[Version 0.2](https://github.com/Creeperman007/subscounter/releases/tag/v0.2)<br>
 [Version 0.1](https://github.com/Creeperman007/subscounter/releases/tag/v0.1)
 <br><br>
 More info coming soon...
