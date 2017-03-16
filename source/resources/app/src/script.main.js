@@ -42,6 +42,7 @@ if ($_GET['uid']) {
           xmlhttp.send();
         }
         var r = setInterval(getApi, 1000);
+        document.getElementById("embed").innerHTML = "<a href=\"#\" onclick=\"toggle()\">embed</a><br><input type=\"text\" id=\"embedInput\" size=\"40\" value=\"https://creeperman007.github.io/projects/subscounter/embed/?uid=" + $_GET['uid'] + "&color=000000\" readonly=\"readonly\">"
         //END SubsCount
       }
     }

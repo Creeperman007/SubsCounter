@@ -6,6 +6,12 @@
     <link href="style.main.css" rel="stylesheet">
     <link href="style.form.css" rel="stylesheet">
     <title>Live Subscriber Count</title>
+    <style>
+    #embed input[type=text] {
+      display: none;
+    }
+    </style>
+    <script src="jquery-3.1.1.min.js"></script>
   </head>
   <body>
     <!--<div id="debug">
@@ -22,5 +28,10 @@
     <p id="subs"></p>
     <p id="embed"></p>
     <script src="script.main.js"></script>
+    <script>
+      function toggle() {
+        $("#embedInput").toggle(100);
+      }
+    </script>
   </body>
 </html>
