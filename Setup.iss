@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Live Subscriber Count"
-#define MyAppVersion "0.3"
+#define MyAppVersion "0.4.0"
 #define MyAppPublisher "Creeperman007"
 #define MyAppExeName "SubsCounter.exe"
 

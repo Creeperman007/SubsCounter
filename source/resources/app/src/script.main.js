@@ -26,6 +26,8 @@ if ($_GET['uid']) {
       else {
         document.getElementById("title").innerHTML = myObj.items[0].snippet.title;
         var id = myObj.items[0].snippet.channelId;
+        var img = myObj.items[0].snippet.thumbnails.default.url;
+        document.getElementById("subs").style.background = "url('" + img + "') center bottom no-repeat";
         //START SubsCount
         document.getElementById("subs").innerHTML = "Loading...";
         var xmlhttp = new XMLHttpRequest();
