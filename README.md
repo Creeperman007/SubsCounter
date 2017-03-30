@@ -14,6 +14,8 @@ You have to edit following parameters:
 * `color` is color of the text. You have to use *hex code* (example: `color=000000` - the text will be black)<br>
 Example url: [https://creeperman007.github.io/projects/subscounter/embed/?uid=pewdiepie&color=000000](https://creeperman007.github.io/projects/subscounter/embed/?uid=pewdiepie&color=000000)<br>
 
+[Visit wiki for more info](https://github.com/Creeperman007/subscounter/wiki/Embed)
+
 ## Download
 [Latest](https://github.com/Creeperman007/subscounter/releases/tag/latest)<br>
 ### Other downloads
