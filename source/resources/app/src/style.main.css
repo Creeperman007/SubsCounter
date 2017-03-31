@@ -1,5 +1,5 @@
 body {
-  background-color: #545454;
+  background-color: #333333;
   color: #ffffff;
   text-align: center;
 }
@@ -10,8 +10,8 @@ a:link {
   color: #2b90f5;
 }
 button {
-    background-color: #008CBA; /* Blue */
-    border: 2px solid #008CBA;
+    background-color: #05C7E3;
+    border: 2px solid #037788;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     color: black;
@@ -26,15 +26,16 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: #545454;
+    background-color: #333333;
     color: white;
 }
 button:active {
-  background-color: #008CBA;
+  background-color: #05C7E3;
   transform: translateY(4px);
 }
 #title {
   font-size: 20px;
+  margin-top: 30px;
 }
 #subs {
   font-size: 30px;
