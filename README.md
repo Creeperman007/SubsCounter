@@ -17,7 +17,7 @@ Example url: [https://creeperman007.github.io/projects/subscounter/embed/?uid=pe
 [Visit wiki for more info](https://github.com/Creeperman007/subscounter/wiki/Embed)
 
 ## Download
-[Latest](https://github.com/Creeperman007/subscounter/releases/tag/latest)<br>
+[Latest](https://github.com/Creeperman007/subscounter/releases/latest)<br>
 ### Other downloads
 [Version 0.4](https://github.com/Creeperman007/subscounter/releases/tag/v0.4)<br>
 [Version 0.3](https://github.com/Creeperman007/subscounter/releases/tag/v0.3)<br>
