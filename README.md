@@ -4,6 +4,8 @@ This app can be used for showing the live count of subscribers<br>
 You can search strings like *pewdiepie* and you can also use the channel ID, e.g. *UC-lHJZR3Gqxm24_Vd_AJ5Yw*<br>
 If you want to help me with developing this app, you can fork this repo. The main code is located @ `/source/resources/app/`<br>
 Then just make new pull request.
+
+If you have any problem with this app, just open new issue. I won't be mad ;)
 ## How To
 When you'll write the search string, it'll use Google API to search for the matching channel.
 ## Embed
