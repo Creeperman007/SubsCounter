@@ -24,7 +24,7 @@ if ($_GET['uid']) {
         document.getElementById("title").innerHTML = "No results. Please, try again.";
       }
       else {
-        document.getElementById("title").innerHTML = myObj.items[0].snippet.title;
+        document.getElementById("title").innerHTML = myObj.items[0].snippet.channelTitle;
         var id = myObj.items[0].snippet.channelId;
         var img = myObj.items[0].snippet.thumbnails.default.url;
         document.getElementById("subs").style.background = "url('" + img + "') center bottom no-repeat";
@@ -50,7 +50,7 @@ if ($_GET['uid']) {
     }
   };
   for (i = 0; i < 5; i++) {
-    xmlhttp1.open("GET", "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=" + $_GET['uid'] + "&key=AIzaSyCEm6mS_IlWaKokdUGk1R1ZVapxFsj64qM", true);
+    xmlhttp1.open("GET", "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=" + $_GET['uid'] + "&type=channel&key=AIzaSyCEm6mS_IlWaKokdUGk1R1ZVapxFsj64qM", true);
     xmlhttp1.send();
   }
 }
